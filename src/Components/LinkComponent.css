@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@200&display=swap');
+
+.link__main{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 10px; */
+    font-size: 20px;
+}
+
+.link__disp{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navlink{
+    font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 0.8em;
+}
+
+
+.link__main + hr{
+    width: 80vw;
+    border: 1px solid gainsboro;
+}
+
+.link__button{
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: 0px;
+    background-color: white;
+}
+.bar{
+    width: 40px;
+    background-color: black;
+    height: 5px;
+    margin: 8px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease;
+    border-radius: 20px;
+}
+.bar1 {
+    transform: rotate(45deg) translate( 9px,10px) ;
+    transition: transform 0.5s ease;
+}
+
+.bar3 {
+    transform: rotate(-45deg) ;
+    transition: transform 0.5s ease;
+}
+
+
+/* .button__icon{
+    background-image: url(../../Icons/hamburger-menu.svg);
+    transition: background-image 0.1s linear;
+    background-size: contain;
+    
+}
+.button__icon2{
+    background-image: url(../../Icons/cross.svg);
+    background-size: contain;
+    transition: background-image 0.1s linear;
+
+} */
+
+@media only screen and (min-width:350px) and (max-width:550px){
+    .link__main{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .link__main_border{
+        border-bottom: 0px;
+
+    }
+    .link__button{
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 1;
+    }
+    .link__disp{
+        display: none;
+       
+    }
+    .link__main_dropDown{
+       text-align: center;
+       width: 100vw;
+       font-size: 25px;
+       padding: 10px 0px;
+       
+       
+    }
+    .link__navlinks{
+        padding: 5px 0px;
+        border-bottom: 2px solid rgb(234, 234, 234);
+    }
+
+    .link__main + hr{
+        display: none;
+    }
+    .navlink{
+        padding: 5px 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+}

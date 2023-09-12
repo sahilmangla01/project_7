@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@200&display=swap');
+.mainFooter{
+    width: 98.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: gainsboro;
+    
+}
+.ftimg{
+    width: 40px;
+    height: 40px;
+}
+.Footer{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Footer > div{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.Footer > h1{
+    font-family: 'Montserrat';
+}
+.FooterHead{
+    color: gray;
+}
+.FooterBRP{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 25px;
+}
+.FooterBRP > h2{
+    font-family: 'Montserrat';
+}
+.FooterBRP > div{
+    font-family: 'Open Sans';
+    color: gray;
+}
+.BRP{
+    width: 34vw;
+    display: flex;
+    justify-content: space-between;
+}
+.started{
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.started > img{
+    margin-right: 10px;
+}
+.Copyright1{
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    background-color: gainsboro;
+    color: gray;
+}
+.Copyright{
+    width: 80vw;
+    border-top: 2px solid rgb(200, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Copyright > div{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+.Copyright >div >div:hover{
+    color: rgb(43, 186, 242);
+}
+.FooterBRP>div>div:hover{
+    color: rgb(43, 186, 242);
+}
+.started>div:hover{
+    color: rgb(43, 186, 242);
+
+}
+.addBtn{
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+@media only screen and (min-width:350px) and (max-width:540px){
+    .mainFooter{
+        width: 99vw;
+        flex-direction: column-reverse;
+    }
+    .Footer{
+        width: 97vw;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .Footer > h1{
+        font-size: 27px;
+    }
+    .FooterHead{
+        width: 70vw;
+        margin-bottom: 15px;
+    }
+    .started{
+        width: 95vw;
+    }
+    .BRP{
+        flex-direction: column;
+        width: 98vw;
+        align-items: center;
+        
+    }
+    .FooterBRP{
+        background-color: rgb(202, 202, 202);
+        width: 80vw;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 0 10px;
+        border-radius: 5px;
+       
+        
+    }
+    .FooterBRP > h2{
+        display: flex;
+        margin: 7px 0;
+        align-items: center;
+       justify-content: space-between;
+    }
+    .Copyright{
+        flex-direction: column-reverse;
+    }
+    .Copyright > div{
+        width: 80vw;
+        box-sizing: border-box;
+        padding: 20px 0;
+        flex-direction: row;
+    }
+    .show{
+        display: block;
+        
+    }
+    .hide{
+        display: none;
+        
+        
+    }
+    .addBtn{
+        display: inline-block;
+        transform: rotate(180deg);
+        transition: transform .1s linear ;
+        
+    }
+    .addBtnrt{
+        transition: transform .1s linear ;
+        transform: rotate(0deg);
+        width: 25px;
+    height: 25px;
+    }
+}

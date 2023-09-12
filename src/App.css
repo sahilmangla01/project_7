@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@200&display=swap');
+.Title{
+  font-size: 50px;
+  padding: 10px 0px 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  
+  color: black;
+}
+
+
+.the{
+  font-size: 25px;
+  margin-right: 8px;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform:rotate(-180deg)
+}
+.app__main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media only screen and (min-width:350px) and (max-width:550px){
+  hr{
+    display: none;
+    
+  }
+  .app__main{
+    position: sticky;
+    top: 0px;
+    border-bottom: 2px solid gainsboro;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+
+  }
+  .app__main{
+    width: 100vw;
+    justify-content: space-between;
+    
+  }
+  .Title{
+    text-align: left;
+    border-bottom: 2px solid gainsboro;
+  }
+  
+}
+
+

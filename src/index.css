@@ -1,0 +1,28 @@
+#root {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  margin: 0;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (min-width:350px) and (max-width:550px){
+    #root{
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+    }
+    body{
+      overflow-x: hidden;
+    }
+}

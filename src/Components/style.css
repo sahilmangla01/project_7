@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@200&family=Open+Sans&display=swap');
+
+.heading{
+    text-decoration: none;
+    color: black;
+}
+.TS__images{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.topStories{
+    width: 92vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.topStories__left{
+    width: 43vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.topStories__right{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    ;
+}
+.TS__Elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 25px 0px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid gainsboro;
+    
+    
+}
+.TS__headAndDDescpr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 25vw;
+    position: relative;
+    top: -22px;
+    
+    
+    
+} 
+.TS__description{
+    font-size: 16px;
+    line-height: 22px;
+    color: gray;
+    
+    margin-bottom: 20px;
+}
+.TP__Elements{
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid gainsboro;
+    
+}
+.TPTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.TP__first{
+    width: 23vw;
+    
+    border-bottom: 3px solid gainsboro;
+}
+.TP__images{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+
+}
+.TP__firstImage{
+    width: 23vw;
+    height: 230px;
+    border-radius: 10px;
+
+}
+
+.TP__description{
+    width: 15vw;
+    height: 70px;
+    justify-content:flex-start ;
+    display: flex;
+   
+    
+    
+}
+.TP__firstDescription{
+    width: 23vw;
+    height: 100px;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    
+}
+.TP__title{
+    width: 13vw;
+    font-size: 18px;
+}
+
+.TP__firstTitle{
+    width: 20vw;
+    font-size: 20px;
+}
+.TP__numbers{
+    font-size: 60px;
+    
+    color: silver;
+}
+.TP__FirstNumber{
+    font-size: 60px;
+    color: silver;
+}
+.advertisement{
+    width: 23vw;
+    height: 70vh;
+    text-align: center;
+    border: 1px solid black;
+}
+.advertisement > img{
+    width: 23vw;
+    height:70vh
+}
+.content__title{
+    position: relative;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.content__title::before{
+    content: "";
+    width: 6vw;
+    position: absolute;
+    top: 5.5vh;
+    border-bottom: 4px solid #F08080;
+    border-radius: 2px;
+}
+.topPost{
+    margin-bottom: 60px;
+}
+.loadMore{
+    display: none;
+}
+.compfoot{
+    color: #404040;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.load > h3{
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    border-left: #F08080 4px solid;
+    border-right: #F08080 4px solid;
+    padding: 0px 10px;
+    width: 7.5vw;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 540px){
+    .topStories{
+        flex-direction: column;
+        width: 99vw;
+        align-items: center;
+        
+    }
+    .TS__images{
+    width: 140px;
+    height: 140px;
+}
+    .topStories__left{
+    width: 95vw;
+    }
+
+    .TS__headAndDDescpr{
+        width: 50vw;
+    }
+
+    .topStories__right{
+        width: 95vw;
+    }
+
+
+    .advertisement{
+        display: none;
+    }
+    .TP__Elements{
+        width: 98vw;
+        justify-content: space-around;
+    }
+    .TP__images{
+        width: 80px;
+        height: 80px;
+    }
+    .TP__description{
+        width: 50vw;
+        height: 70px;
+    }
+    .TP__title{
+        font-size: 18px;
+        width: 50vw;
+    }
+    .content__title::before{
+        width: 22vw;
+        top: 6.5vh;
+    }
+
+    .TP__first{
+        width: 98vw;
+        text-align: center;
+    }
+    .TP__firstImage{
+        width: 90vw;
+        height: 200px;
+    }
+    .TP__firstDescription{
+        width: 98vw;
+        justify-content: space-around;
+    }
+    .TP__firstTitle{
+        width: 80vw;
+       
+    }
+    .compfoot{
+        font-size: 0.85em;
+    }
+    .second{
+        text-align: left;
+    }
+    .TPTitle{
+        text-align: left;
+    }
+    .load > h3{
+        
+        width: 30vw;
+    }
+
+}
