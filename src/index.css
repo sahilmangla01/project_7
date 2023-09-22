@@ -1,6 +1,5 @@
 #root {
- width: 99.8vw;
- overflow-x: hidden;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,6 +9,7 @@
 body{
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 
 code {
@@ -24,7 +24,5 @@ code {
       flex-wrap: wrap;
       
     }
-    body{
-      overflow-x: hidden;
-    }
+    
 }
