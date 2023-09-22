@@ -218,7 +218,10 @@ h5{
 }
 
 .footer__3Elements{
+
+  
     background-color: #00000008;
+    
 }
 .fticon{
     width: 12vw;
@@ -228,7 +231,7 @@ h5{
 
 
 
-@media only screen and (min-width:350px) and (max-width:540px){
+@media only screen and (min-width:280px) and (max-width:540px){
     .contentHeader{
     width: 99vw;
     position: sticky;
@@ -268,6 +271,8 @@ h5{
     width: 87vw;
    }
    .footer{
+    width: 100vw;
+    overflow-x:hidden ;
     flex-direction: column;
    }
    .footer__elements{
@@ -306,6 +311,68 @@ h5{
     width: 70vw;
 }
 
+
+   
+}
+@media only screen and (min-width:550px) and (max-width:1300px){
+   .footer,.contentHeader,
+   .content__footer,.contentMain{
+    width: 100vw;
+    
+    
+   }
+
+   .content__footer h1{
+    width: 100vw;
+    
+   }
+   
+   .footer__3Elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
+   .footer__elements{
+    width: 99vw;
+    justify-content: space-around;
+
+   }    
+   .content__profile{
+    width: 25vw;
+   }
+    .footer__3Elements:last-child{
+        display: none;
+    }
+    .footer__3Elements , .content__images{
+        width: 25vw;
+    }
+    .content__Title{
+        font-size: 1rem;
+    }
+
+    .getStarted{
+        height: 5vh;
+    }
+    .uptop{
+        left: 50px;
+    }
+    .content{
+        width: 50vw;
+        align-items: center;
+    }
+    .content__image,
+    .content__text,
+    .content__user,.contentTitle, .one,.profile2{
+        width: 50vw;
+    }
+    .one,  .contentHeader    {
+        justify-content: space-between;
+    }
+    .back{
+            width: 20vw;
+            left: 4vw;
+    }
+    
 
    
 }

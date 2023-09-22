@@ -33,13 +33,14 @@
     justify-content: space-between;
 }
 .randomContent{
+    width: 80vw;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     
 }
 .randomComponents{
-    width: 50vw;
+    width: 80vw;
 }
 .random__images{
    width: 18vw;
@@ -120,8 +121,11 @@
     font-weight: bold;
     font-family:  'Montserrat', sans-serif;
 }
+.LA{
+    font-size: .8rem;
+}
 
-@media only screen and (min-width:350px) and (max-width:540px){
+@media only screen and (min-width:280px) and (max-width:540px){
     
     .Home{
         flex-direction: column;
@@ -192,6 +196,35 @@
     }
     .LA{
         width: 97vw;
+
     }
+}
+@media only screen and (min-width:550px) and (max-width:1300px){
+  .img1{
+    height: 52vh;
+  }
+  .img2{
+    height: 25.3vh;
+  }.Home{
+    margin-top: 2vh;
+  }
+  
+
+  .randomComponents:last-child{
+    display: none;
+  }
+  .random__images{
+    width: 25vw;
+  }.random__Title{
+    width: 25vw;
+    font-size: 1.5rem;
+  }
+  .random__profile{
+    width: 25vw;
+  }
+  .HomeCompFoot{
+    font-size: 1rem;
+  }
+ 
 }
 

@@ -10,7 +10,7 @@
 
 
 .the{
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-right: 8px;
   text-decoration: none;
   writing-mode: vertical-rl;
@@ -22,7 +22,7 @@
   flex-direction: column;
   text-align: center;
 }
-@media only screen and (min-width:350px) and (max-width:550px){
+@media only screen and (min-width:280px) and (max-width:550px){
   hr{
     display: none;
     
@@ -45,6 +45,16 @@
     text-align: left;
     border-bottom: 2px solid gainsboro;
   }
+  
+}
+
+@media only screen and (min-width:550px) and (max-width:1300px){
+
+  .app__main{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
   
 }
 

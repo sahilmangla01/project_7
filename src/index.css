@@ -1,9 +1,11 @@
 #root {
-  
+ width: 99.8vw;
+ overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 body{
   margin: 0;
@@ -15,7 +17,7 @@ code {
     monospace;
 }
 
-@media only screen and (min-width:350px) and (max-width:550px){
+@media only screen and (min-width:280px) and (max-width:550px){
     #root{
       flex-direction: row;
       justify-content: space-between;

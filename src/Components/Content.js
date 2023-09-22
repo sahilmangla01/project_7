@@ -83,7 +83,7 @@ const Content = ()=>{
                     }
                      
                
-               <div className="display">
+               <div className="display one">
                <img className="clapping" src="https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/clap-icon.png" alt="clap"/>
                 <h3>9.3k claps</h3>
                </div>

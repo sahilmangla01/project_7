@@ -66,7 +66,7 @@
 
 } */
 
-@media only screen and (min-width:350px) and (max-width:550px){
+@media only screen and (min-width:280px) and (max-width:550px){
     .link__main{
         flex-direction: column;
         justify-content: space-between;
@@ -106,5 +106,16 @@
     .navlink{
         padding: 5px 0px;
         border-bottom: 1px solid gainsboro;
+    }
+}
+
+@media only screen and (min-width:550px) and (max-width:1300px){
+    .link__main{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .navlink{
+        font-size: 1.2rem;
+       
     }
 }
