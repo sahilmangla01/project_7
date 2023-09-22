@@ -168,7 +168,24 @@
     height: 25px;
     }
 }
-@media only screen and (min-width:550px) and (max-width:1300px){
+@media only screen and (min-width:541px) and (max-width:940px){
+    .mainFooter{
+        width: 100vw;
+        overflow-x: hidden;
+        justify-content: space-evenly;  
+ 
+    }
+   .BRP{
+    flex-wrap: wrap;
+   }
+   .Footer{
+    margin-right: 10px;
+    width: 20vw;
+   }
+  
+   
+}
+@media only screen and (min-width:941px) and (max-width:1340px){
     .mainFooter{
         width: 100vw;
         overflow-x: hidden;

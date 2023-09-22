@@ -218,8 +218,9 @@ h5{
 }
 
 .footer__3Elements{
-
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #00000008;
     
 }
@@ -290,7 +291,7 @@ h5{
     height: 100px;
    }
    .footer__3Elements{
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 97vw;
    }
@@ -314,16 +315,16 @@ h5{
 
    
 }
-@media only screen and (min-width:550px) and (max-width:1300px){
+@media only screen and (min-width:541px) and (max-width:940px){
    .footer,.contentHeader,
    .content__footer,.contentMain{
-    width: 100vw;
+    width: 99.8vw;
     
     
    }
 
    .content__footer h1{
-    width: 100vw;
+    width: 99.8vw;
     
    }
    
@@ -333,7 +334,7 @@ h5{
     justify-content: space-around;
    }
    .footer__elements{
-    width: 99vw;
+    width: 99.8vw;
     justify-content: space-around;
 
    }    
@@ -371,6 +372,74 @@ h5{
     .back{
             width: 20vw;
             left: 4vw;
+    }
+    .content__Title{
+        width: 25vw;
+    }
+    
+
+   
+}
+@media only screen and (min-width:941px) and (max-width:1340px){
+   .footer,.contentHeader,
+   .content__footer,.contentMain{
+    width: 99.8vw;
+    
+    
+   }
+
+   .content__footer h1{
+    width: 99.8vw;
+    
+   }
+   
+   .footer__3Elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
+   .footer__elements{
+    width: 99.8vw;
+    justify-content: space-around;
+
+   }    
+   .content__profile{
+    width: 25vw;
+   }
+    .footer__3Elements:last-child{
+        display: none;
+    }
+    .footer__3Elements , .content__images{
+        width: 25vw;
+    }
+    .content__Title{
+        font-size: 1rem;
+    }
+
+    .getStarted{
+        height: 8vh;
+    }
+    .uptop{
+        left: 50px;
+    }
+    .content{
+        width: 50vw;
+        align-items: center;
+    }
+    .content__image,
+    .content__text,
+    .content__user,.contentTitle, .one,.profile2{
+        width: 50vw;
+    }
+    .one,  .contentHeader    {
+        justify-content: space-between;
+    }
+    .back{
+            width: 20vw;
+            left: 4vw;
+    }
+    .content__Title{
+        width: 25vw;
     }
     
 

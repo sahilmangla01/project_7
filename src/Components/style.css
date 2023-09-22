@@ -86,6 +86,12 @@
     
     border-bottom: 3px solid gainsboro;
 }
+.tprightfix{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .TP__images{
     width: 80px;
     height: 80px;
@@ -264,7 +270,7 @@
 
 }
 
-@media only screen and (min-width:550px) and (max-width:1300px){
+@media only screen and (min-width:541px) and (max-width:940px){
     .TS__Elements{
         width: 50vw;
     }
@@ -307,6 +313,59 @@
     }
     
     .advertisement, .advertisement img{
+        width: 30vw;
+    }
+    .topStories__right{
+        width: 30vw;
+    }
+    
+}
+@media only screen and (min-width:941px) and (max-width:1340px){
+    .TS__Elements{
+        width: 46vw;
+    }
+    .TS__images{
+        width: 200px;
+    }
+    .TS__description{
+        margin-bottom: 10px;
+        font-size: .8rem;
+    }
+    .TP__firstImage{
+        margin-bottom: 10px;
+    }
+    .TP__first{
+        width: 30vw;
+        height: 60vh;
+    }
+    .TP__firstDescription{
+        width: 30vw;
+    }
+    .TP__firstTitle{
+        font-size: 1.2rem;
+    }
+    .TP__Elements{
+        height: 12vh;
+        width: 30vw;
+        margin: 0;
+        padding-top: 20px;
+        align-items: normal;
+        
+    }
+    .TP__numbers{
+        padding-top: 20px;
+    }
+    .TP__title{
+        font-size: 1rem;
+    }
+    .TP__firstImage{
+        width: 30vw;
+    }
+    
+    .advertisement, .advertisement img{
+        width: 30vw;
+    }
+    .topStories__right{
         width: 30vw;
     }
     

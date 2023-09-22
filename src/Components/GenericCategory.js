@@ -72,8 +72,9 @@ const GenericCategory = (props) => {
                        { !loadMore ? <h3  >Load More</h3>:<h3 >Show Less</h3>}</div>
                 </div>
                 <div className="topStories__right">
-                    <div>                    <h1 className="content__title topPost">Top Posts</h1>
                         
+                    <div >
+                                            <h1 className="content__title topPost">Top Posts</h1>
                     {
                            contextData && contextData.slice(10,11).map((e,index)=>{
                                 return(
@@ -92,7 +93,8 @@ const GenericCategory = (props) => {
                             })
                         }
                     
-                        {
+                    
+                                          {
                            contextData && contextData.slice(11,15).map((e,index)=>{
                                 return(
                                     <div key={index} className="TP__Elements">
@@ -114,8 +116,8 @@ const GenericCategory = (props) => {
                     <div className="advertisement">
                           <img src={props.advertisement} alt="gifs"/>
                                              </div>
-                </div>
-                
+                 </div>
+
            
             </div>
 
