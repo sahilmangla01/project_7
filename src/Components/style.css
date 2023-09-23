@@ -403,7 +403,7 @@
     }
     .TP__title{
         width: 19vw;
-        font-size:1em;
+        font-size:1.2em;
     }
     .TP__firstImage{
         width: 35vw;
@@ -445,10 +445,10 @@
         font-size: 1.2rem;
     }
     .TP__Elements{
-        min-height: 12vh;
+        
         width: 30vw;
         margin: 0;
-        padding-top: 15px;
+        padding: 15px 0px;
         align-items: normal;
         
     }
@@ -456,7 +456,7 @@
         padding-top: 20px;
     }
     .TP__title{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     .TP__firstImage{
         width: 30vw;
