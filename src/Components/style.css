@@ -187,7 +187,7 @@
     cursor: pointer;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 540px){
+@media only screen and (max-width: 280px){
     .topStories{
         flex-direction: column;
         width: 99vw;
@@ -230,7 +230,89 @@
         height: 70px;
     }
     .TP__title{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        width: 50vw;
+    }
+    .content__title::before{
+        width: 22vw;
+        top: 6.5vh;
+    }
+
+    .TP__first{
+        width: 98vw;
+        text-align: center;
+    }
+    .TP__firstImage{
+        width: 90vw;
+        height: 200px;
+    }
+    .TP__firstDescription{
+        width: 98vw;
+        justify-content: space-around;
+    }
+    .TP__firstTitle{
+        width: 80vw;
+       
+    }
+    .compfoot{
+        font-size: 0.85em;
+    }
+    .second{
+        text-align: left;
+    }
+    .TPTitle{
+        text-align: left;
+    }
+    .load > h3{
+        
+        width: 30vw;
+    }
+
+}
+@media only screen and (min-width: 281px) and (max-width: 540px){
+    .topStories{
+        flex-direction: column;
+        width: 99vw;
+        align-items: center;
+        
+    }
+    .TS__images{
+    width: 140px;
+    height: 140px;
+}
+.TS__description{
+    font-size: 0.9rem;
+}
+    .topStories__left{
+    width: 95vw;
+    }
+
+    .TS__headAndDDescpr{
+        width: 50vw;
+    }
+
+    .topStories__right{
+        width: 95vw;
+    }
+
+
+    .advertisement{
+        display: none;
+    }
+    .TP__Elements{
+        width: 98vw;
+        justify-content: space-around;
+    }
+    .TP__images{
+        width: 80px;
+        height: 80px;
+    }
+    .TP__description{
+        width: 50vw;
+        height: 70px;
+    }
+    .TP__title{
+        font-size: 1rem;
         width: 50vw;
     }
     .content__title::before{
@@ -270,35 +352,49 @@
 
 }
 
-@media only screen and (min-width:541px) and (max-width:940px){
+@media only screen and (min-width:541px) and (max-width:915px){
     .TS__Elements{
-        width: 50vw;
+        width: 43vw;
+    }
+    .advertisement{
+        margin: 20px 0;
     }
     .TS__images{
-        width: 200px;
+        width: 17vw;
+        height: 14vh;
     }
     .TS__description{
         margin-bottom: 10px;
         font-size: .8rem;
     }
-    .TP__firstImage{
-        margin-bottom: 10px;
+  
+    .content__title{
+        width: 35vw;
     }
     .TP__first{
-        width: 30vw;
-        height: 32vh;
+        width: 35vw;
+        height: 350px;
+    }
+    .TPTitle, .TP__firstTitle{
+        width: 25vw;
     }
     .TP__firstDescription{
-        width: 30vw;
+        width: 35vw;
     }
     .TP__firstTitle{
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    .TP__description{
+        width: 20vw;
+       
+  
     }
     .TP__Elements{
-        height: 12vh;
-        width: 30vw;
+        
+        width: 35vw;
         margin: 0;
         padding-top: 20px;
+        padding-bottom: 10px;
         align-items: normal;
         
     }
@@ -306,21 +402,25 @@
         padding-top: 20px;
     }
     .TP__title{
-        font-size: 1rem;
+        width: 19vw;
+        font-size:1em;
     }
     .TP__firstImage{
-        width: 30vw;
+        width: 35vw;
+        margin-bottom: 10px;
     }
     
     .advertisement, .advertisement img{
         width: 30vw;
     }
     .topStories__right{
-        width: 30vw;
+        width: 40vw;    
+        margin-left: 30px;
     }
     
+    
 }
-@media only screen and (min-width:941px) and (max-width:1340px){
+@media only screen and (min-width:916px) and (max-width:1340px){
     .TS__Elements{
         width: 46vw;
     }
@@ -336,7 +436,7 @@
     }
     .TP__first{
         width: 30vw;
-        height: 60vh;
+        
     }
     .TP__firstDescription{
         width: 30vw;
@@ -345,10 +445,10 @@
         font-size: 1.2rem;
     }
     .TP__Elements{
-        height: 12vh;
+        min-height: 12vh;
         width: 30vw;
         margin: 0;
-        padding-top: 20px;
+        padding-top: 15px;
         align-items: normal;
         
     }
@@ -356,7 +456,7 @@
         padding-top: 20px;
     }
     .TP__title{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .TP__firstImage{
         width: 30vw;

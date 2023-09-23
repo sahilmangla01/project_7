@@ -92,7 +92,7 @@
     width: 25px;
     height: 25px;
 }
-@media only screen and (min-width:280px) and (max-width:540px){
+@media only screen and (max-width:280px){
     .mainFooter{
         width: 100vw;
         overflow-x: hidden;
@@ -168,7 +168,83 @@
     height: 25px;
     }
 }
-@media only screen and (min-width:541px) and (max-width:940px){
+@media only screen and (min-width:281px) and (max-width:540px){
+    .mainFooter{
+        width: 100vw;
+        overflow-x: hidden;
+        flex-direction: column-reverse;
+    }
+    .Footer{
+        width: 97vw;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .Footer > h1{
+        font-size: 27px;
+    }
+    .FooterHead{
+        width: 70vw;
+        margin-bottom: 15px;
+    }
+    .started{
+        width: 95vw;
+    }
+    .BRP{
+        flex-direction: column;
+        width: 98vw;
+        align-items: center;
+        
+    }
+    .FooterBRP{
+        background-color: rgb(202, 202, 202);
+        width: 80vw;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 0 10px;
+        border-radius: 5px;
+       
+        
+    }
+    .FooterBRP > h2{
+        display: flex;
+        margin: 7px 0;
+        align-items: center;
+       justify-content: space-between;
+    }
+    .Copyright{
+        flex-direction: column-reverse;
+    }
+    .Copyright > div{
+        width: 80vw;
+        box-sizing: border-box;
+        padding: 20px 0;
+        flex-direction: row;
+    }
+    .show{
+        display: block;
+        
+    }
+    .hide{
+        display: none;
+        
+        
+    }
+    .addBtn{
+        display: inline-block;
+        transform: rotate(180deg);
+        transition: transform .1s linear ;
+        
+    }
+    .addBtnrt{
+        transition: transform .1s linear ;
+        transform: rotate(0deg);
+        width: 25px;
+    height: 25px;
+    }
+}
+@media only screen and (min-width:541px) and (max-width:915px){
     .mainFooter{
         width: 100vw;
         overflow-x: hidden;
@@ -185,7 +261,8 @@
   
    
 }
-@media only screen and (min-width:941px) and (max-width:1340px){
+
+@media only screen and (min-width:916px) and (max-width:1340px){
     .mainFooter{
         width: 100vw;
         overflow-x: hidden;

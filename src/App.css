@@ -22,7 +22,32 @@
   flex-direction: column;
   text-align: center;
 }
-@media only screen and (min-width:280px) and (max-width:540px){
+@media only screen and (max-width:280px){
+  hr{
+    display: none;
+    
+  }
+  .app__main{
+    position: sticky;
+    top: 0px;
+    border-bottom: 2px solid gainsboro;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+
+  }
+  .app__main{
+    width: 100vw;
+    justify-content: space-between;
+    
+  }
+  .Title{
+    text-align: left;
+    border-bottom: 2px solid gainsboro;
+  }
+  
+}
+@media only screen and (min-width:281px) and (max-width:540px){
   hr{
     display: none;
     
@@ -48,7 +73,7 @@
   
 }
 
-@media only screen and (min-width:541px) and (max-width:940px){
+@media only screen and (min-width:541px) and (max-width:915px){
 
   .app__main{
     width: 100vw;
@@ -57,7 +82,8 @@
   
   
 }
-@media only screen and (min-width:941px) and (max-width:1340px){
+
+@media only screen and (min-width:916px) and (max-width:1340px){
 
   .app__main{
     width: 100vw;

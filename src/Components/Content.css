@@ -27,7 +27,7 @@
 .content__profile{
     display: flex;
     align-items: center;
-    width: 13vw;
+    width: 17vw;
     justify-content: space-between;
 }
 .profileIcon{
@@ -168,12 +168,12 @@ h5{
 .contentHeader{
     width: 98vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 2px 2px 2px 2px gainsboro;
 }
 .contentHeadtitle{
     font-size: 40px;
-    padding: 10px 0px 20px;
+    padding: 10px  20px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     
@@ -190,11 +190,13 @@ h5{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px  20px;
     font-weight: bold;
     border: 3px solid #03A87C;
     color: #03A87C;
     box-sizing: border-box;
-    padding: 10px;
+    
     height: 7vh;
 }
 .back{
@@ -232,7 +234,7 @@ h5{
 
 
 
-@media only screen and (min-width:280px) and (max-width:540px){
+@media only screen and  (max-width:281px){
     .contentHeader{
     width: 99vw;
     position: sticky;
@@ -242,6 +244,117 @@ h5{
     background-color: white;
     z-index: 1;
     box-shadow: 1px 1px 3px 1px gainsboro;
+    }
+    .content__The{
+        font-size: 1rem;
+    }
+    .contentHeadtitle{
+        padding: 10px 5px;
+        font-size: 1.5rem;
+       
+    }
+    .getStarted{
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+    .content{
+        align-items: flex-start;
+        width: 95vw;
+    }
+    .content__image{
+        width:95vw;
+    }
+    .content__text{
+        width: 95vw;
+    }
+    .uptop{
+        display: none;
+    }
+   
+   .display{
+    width: 100px;
+   }
+   .content__user{
+    width: 90vw;
+    display: block;
+   }
+   .content__profile{
+    margin-top: 20px;
+    width: 50vw;
+   }
+   .profile2{
+    width: 80vw;
+   }
+   .footer{
+    width: 100vw;
+    overflow-x:hidden ;
+    flex-direction: column;
+   }
+   .footer__elements{
+    margin: 0;
+    flex-direction: column;
+   }
+   .content__footer,.footer__elements{
+    width: 99vw;
+   }
+   .content__footer > h1{
+    width: 98vw;
+   }
+   .content__images{
+    width: 100px;
+    height: 100px;
+   }
+   .footer__3Elements{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97vw;
+    
+   }
+   .footer__3Elements>div{
+    display: none;
+   }
+   .back{
+    width: 40vw;
+    left: 30vw;
+
+   }
+   .back:hover{
+    background-color: red;
+    color: white;
+    
+}
+.fticon{
+    width: 70vw;
+}
+
+.content__Title{
+    font-size: .8rem;
+    width: 40vw;
+}
+   
+}
+
+@media only screen and (min-width:281px) and (max-width:540px){
+    .contentHeader{
+    width: 99vw;
+    position: sticky;
+    top: 0px;
+    justify-content:space-between;
+    border-bottom: 2px solid gainsboro;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 1px gainsboro;
+    }
+    .content__The{
+        font-size: 1rem;
+    }
+    .contentHeadtitle{
+        padding: 10px 5px;
+       
+    }
+    .getStarted{
+        margin-right: 5px;
+        
     }
     .content{
         align-items: flex-start;
@@ -315,7 +428,7 @@ h5{
 
    
 }
-@media only screen and (min-width:541px) and (max-width:940px){
+@media only screen and (min-width:541px) and (max-width:915px){
    .footer,.contentHeader,
    .content__footer,.contentMain{
     width: 99.8vw;
@@ -353,6 +466,8 @@ h5{
 
     .getStarted{
         height: 5vh;
+        font-size: 1.5rem;
+        
     }
     .uptop{
         left: 50px;
@@ -380,7 +495,7 @@ h5{
 
    
 }
-@media only screen and (min-width:941px) and (max-width:1340px){
+@media only screen and (min-width:916px) and (max-width:1340px){
    .footer,.contentHeader,
    .content__footer,.contentMain{
     width: 99.8vw;

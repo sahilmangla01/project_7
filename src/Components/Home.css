@@ -125,7 +125,7 @@
     font-size: .8rem;
 }
 
-@media only screen and (min-width:280px) and (max-width:540px){
+@media only screen and (max-width:280px){
     
     .Home{
         flex-direction: column;
@@ -199,7 +199,83 @@
 
     }
 }
-@media only screen and (min-width:541px) and (max-width:940px){
+
+@media only screen and (min-width:281px) and (max-width:540px){
+    
+    .Home{
+        flex-direction: column;
+        width: 99vw;
+        align-items: center;
+       
+    }
+   .twoImages{
+    display: flex;
+    flex-direction: column;
+   }
+    .img1{
+        width: 92vw;
+        height: 50vh;
+        margin-bottom: 10px;
+    }
+    .img2{
+        width: 92vw;
+        height: 50vh;
+        margin-bottom: 10px;
+    }
+    .random{
+        width: 99vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .randomContent{
+        flex-direction: column;
+        width: 98vw;
+        align-items: center;
+    }
+    .randomComponents{
+        display: flex;
+        flex-direction: column;
+        width: 93vw;
+        margin-bottom: 30px;
+    }
+    .random__images{
+        width:93vw;
+        height: 25vh;
+        margin-top: 17px;
+    }
+    .random__Title{
+        width: 90vw;
+    }
+    .random__profile{
+        width: 93vw;
+    }
+    .random > .content__title{
+        width: 94vw;
+    }
+    
+    .random__description{
+        margin-bottom: 10px;
+    }
+    .homeLoad{
+        width: 90vw;
+    }
+    .homeLoad > h3{
+        
+        width: 30vw;
+    }
+    .imgdiv{
+        display: none;
+    }
+    .latestArticleMain{
+        flex-direction: column;
+    }
+    .LA{
+        width: 97vw;
+
+    }
+}
+
+@media only screen and (min-width:541px) and (max-width:915px){
   .img1{
     height: 52vh;
   }
@@ -208,7 +284,9 @@
   }.Home{
     margin-top: 2vh;
   }
-  
+  .latestArticleMain{
+    justify-content: space-between;
+  }
 
   .randomComponents:last-child{
     display: none;
@@ -223,12 +301,12 @@
     width: 25vw;
   }
   .HomeCompFoot{
-    font-size: 1rem;
+    font-size: .7rem;
   }
  
 }
 
-@media only screen and (min-width:941px) and (max-width:1340px){
+@media only screen and (min-width:916px) and (max-width:1340px){
   .img1{
     height: 52vh;
   }
@@ -252,7 +330,7 @@
     width: 25vw;
   }
   .HomeCompFoot{
-    font-size: 1rem;
+    font-size: .8rem;
   }
  
 }
