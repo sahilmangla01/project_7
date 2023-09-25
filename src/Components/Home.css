@@ -303,10 +303,15 @@
   .HomeCompFoot{
     font-size: .7rem;
   }
- 
+ .homeLoad>h3{
+    width: 15vw;
+ }
 }
 
 @media only screen and (min-width:916px) and (max-width:1340px){
+    .homeLoad>h3{
+       width: 10vw;
+    }
   .img1{
     height: 52vh;
   }

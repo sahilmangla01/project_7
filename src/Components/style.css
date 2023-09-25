@@ -421,9 +421,14 @@
         position: sticky;
         top: 100px;
     }
-    
+    .load>h3{
+        width: 15vw;
+    }
 }
 @media only screen and (min-width:916px) and (max-width:1340px){
+    .load>h3{
+        width: 10vw;
+    }
     .TS__Elements{
         width: 46vw;
     }
