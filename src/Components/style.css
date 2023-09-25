@@ -411,7 +411,7 @@
     }
     
     .advertisement, .advertisement img{
-        width: 30vw;
+        width: 35vw;
     }
     .topStories__right{
         width: 40vw;    
@@ -450,8 +450,8 @@
     .TP__Elements{
         
         width: 30vw;
-        margin: 0;
-        padding: 15px 0px;
+        margin: 0 0 10px;
+        padding: 15px 0px 6vh;
         align-items: normal;
         
     }
@@ -459,7 +459,7 @@
         padding-top: 20px;
     }
     .TP__title{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .TP__firstImage{
         width: 30vw;
@@ -471,5 +471,8 @@
     .topStories__right{
         width: 30vw;
     }
-    
+    .add2{
+        position: sticky;
+        top: 100px;
+    }
 }
