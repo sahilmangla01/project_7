@@ -394,7 +394,7 @@
         width: 35vw;
         margin: 0;
         padding-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         align-items: normal;
         
     }
@@ -403,7 +403,7 @@
     }
     .TP__title{
         width: 19vw;
-        font-size:1.2em;
+        font-size:1em;
     }
     .TP__firstImage{
         width: 35vw;
@@ -417,7 +417,10 @@
         width: 40vw;    
         margin-left: 30px;
     }
-    
+    .add2{
+        position: sticky;
+        top: 100px;
+    }
     
 }
 @media only screen and (min-width:916px) and (max-width:1340px){

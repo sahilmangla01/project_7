@@ -113,7 +113,7 @@ const GenericCategory = (props) => {
                         </div>
 
                     
-                    <div className="advertisement">
+                    <div className="advertisement add2 ">
                           <img src={props.advertisement} alt="gifs"/>
                                              </div>
                  </div>
